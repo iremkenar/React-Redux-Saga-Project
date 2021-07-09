@@ -1,6 +1,10 @@
 import { React } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { increment, decrement, loggedIn } from "../../shared/store/actions";
+import {
+  increment,
+  decrement,
+  loggedIn,
+} from "../../shared/store/actions/counter.action";
 
 const HomePage = () => {
   const counter = useSelector((state) => state.counter);
