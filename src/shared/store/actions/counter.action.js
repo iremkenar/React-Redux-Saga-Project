@@ -1,4 +1,4 @@
-import { SIGN_IN, INCREMENT, DECREMENT } from "../constants/action-types";
+import { SIGN_IN, INCREMENT, DECREMENT } from "../constants/counter.constant";
 
 export const loggedIn = () => {
   return {
