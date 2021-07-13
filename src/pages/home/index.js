@@ -50,7 +50,7 @@ const HomePage = () => {
         <>
           <p>City: {weatherData.city.name}</p>
           <p>Description: {weatherData.list[0].weather[0].description}</p>
-          <p>Temp: {weatherData.list[0].main.temp} &deg;C</p>
+          <p>Temp: {Math.trunc(weatherData.list[0].main.temp)} &deg;C</p>
         </>
       ) : (<></>)}
 
