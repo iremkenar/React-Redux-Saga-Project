@@ -10,16 +10,22 @@ import {
   getUserLoadedSelector,
 } from "../../shared/store/selectors/user.selector";
 import { userActions } from "../../shared/store/actions/user.action";
+import { weatherActions } from "../../shared/store/actions/weather.action";
 
 const HomePage = () => {
   const counter = useSelector((state) => state.counter);
   const isLogged = useSelector((state) => state.isLogged);
+  const weatherData = useSelector((state) => state.weather);
+  console.log(weatherData);
   //const userData = useSelector((state) => state.user.data);
   const dispatch = useDispatch();
 
   const userData = useSelector(getUserDataSelector);
   const userLoaded = useSelector(getUserLoadedSelector);
 
+  const loadWeather = () => {
+    dispatch(weatherActions.loadWeatherApiAction());
+  };
   const loadUser = () => {
     dispatch(userActions.loadUserAction(1));
   };
@@ -27,6 +33,8 @@ const HomePage = () => {
   return (
     <div>
       <div onClick={loadUser}>Click Me!</div>
+      <div onClick={loadWeather}>Click to see the weather</div>
+      <p>{weatherData.coord}</p>
       <p>{userData.name}</p>
       {userLoaded ? (
         <>

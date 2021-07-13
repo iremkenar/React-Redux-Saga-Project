@@ -1,18 +1,18 @@
 import { weatherConstant } from "../constants/weather.constant";
 
-const loadWeatherApiAction = {
+const loadWeatherApiAction = (payload) => ({
   type: weatherConstant.LOAD_WEATHER_API,
   payload,
-};
+});
 
-const loadWeatherApiSuccessAction = {
+const loadWeatherApiSuccessAction = (payload) => ({
   type: weatherConstant.LOAD_WEATHER_API_SUCCESS,
   payload,
-};
+});
 
-const loadWeatherApiFailAction = {
+const loadWeatherApiFailAction = () => ({
   type: weatherConstant.LOAD_WEATHER_API_FAIL,
-};
+});
 
 export const weatherActions = {
   loadWeatherApiAction,

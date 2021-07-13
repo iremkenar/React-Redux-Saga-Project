@@ -1,4 +1,4 @@
-import { call, put, takeLatest } from "redux-saga/effects";
+import { put, takeLatest } from "redux-saga/effects";
 import { userActions } from "../actions/user.action";
 import { userConstant } from "../constants/user.constant";
 
