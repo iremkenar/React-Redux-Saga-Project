@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/irem-kenar/React-Redux-Saga-Project/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/irem-kenar/React-Redux-Saga-Project/static/js/main.b42fb3e5.chunk.js",
+    "main.js.map": "/irem-kenar/React-Redux-Saga-Project/static/js/main.b42fb3e5.chunk.js.map",
+    "runtime-main.js": "/irem-kenar/React-Redux-Saga-Project/static/js/runtime-main.af47ed88.js",
+    "runtime-main.js.map": "/irem-kenar/React-Redux-Saga-Project/static/js/runtime-main.af47ed88.js.map",
+    "static/js/2.dfa7c584.chunk.js": "/irem-kenar/React-Redux-Saga-Project/static/js/2.dfa7c584.chunk.js",
+    "static/js/2.dfa7c584.chunk.js.map": "/irem-kenar/React-Redux-Saga-Project/static/js/2.dfa7c584.chunk.js.map",
+    "static/js/3.e18db100.chunk.js": "/irem-kenar/React-Redux-Saga-Project/static/js/3.e18db100.chunk.js",
+    "static/js/3.e18db100.chunk.js.map": "/irem-kenar/React-Redux-Saga-Project/static/js/3.e18db100.chunk.js.map",
+    "index.html": "/irem-kenar/React-Redux-Saga-Project/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/irem-kenar/React-Redux-Saga-Project/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.dfa7c584.chunk.js.LICENSE.txt": "/irem-kenar/React-Redux-Saga-Project/static/js/2.dfa7c584.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.af47ed88.js",
+    "static/js/2.dfa7c584.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.b42fb3e5.chunk.js"
+  ]
+}
